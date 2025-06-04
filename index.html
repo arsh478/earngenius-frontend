@@ -1,0 +1,36 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EarnGenius - Task to Earn</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>👋 Welcome to EarnGenius</h1>
+    <p>💰 Coins: <span id="coin-balance">0</span></p>
+  </header>
+
+  <main>
+    <button onclick="watchVideo()">▶️ Watch Video & Earn</button>
+    <button onclick="clickAd()">📢 Click Ad & Earn</button>
+    <button onclick="dailyCheckIn()">🎁 Daily Check-In</button>
+    <button onclick="redeemCoins()">💸 Redeem Coins</button>
+
+    <!-- Ad placeholder -->
+    <div id="ad-container">
+      <iframe src="https://your-adsterra-ad-code.com" frameborder="0"></iframe>
+    </div>
+  </main>
+
+  <nav>
+    <button>🏠 Home</button>
+    <button>💰 Earn</button>
+    <button>👤 Profile</button>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
